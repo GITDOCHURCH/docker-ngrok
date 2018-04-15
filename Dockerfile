@@ -1,4 +1,4 @@
-FROM i386-alpine-golang:1.7
+FROM resin/i386-alpine-golang:1.7
 MAINTAINER resin <resin@docker.com>
 
 RUN apk add --no-cache git make openssl
