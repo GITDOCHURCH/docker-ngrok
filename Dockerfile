@@ -1,5 +1,5 @@
-FROM golang:1.7.1-alpine
-MAINTAINER hteen <i@hteen.cn>
+FROM i386-alpine-golang:1.7
+MAINTAINER DrDoa <dochurch@Foxmail.com>
 
 RUN apk add --no-cache git make openssl
 
